@@ -1,2 +1,2 @@
-# Git-test
+# Course
 Coursera course
