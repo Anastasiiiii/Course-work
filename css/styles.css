@@ -3,8 +3,8 @@
     padding: 0px auto;
 }
 .row-content {
-    margin: 0p auto;
-    padding: 50px 0px 50px 0px;
+    margin: 0px auto;
+    padding: 10px 0px 10px 0px;
     border-bottom: 1px ridge;
     min-height: 400px;
 }
@@ -13,7 +13,7 @@
     background-color: #25221b;
     color: #faf0e6;
     margin: 0px auto;
-    padding: 20px 0px 20px 0px;
+    padding: 0px 0px 0px 0px;
 }
 .jumbotron {
     padding: 70px 30px 70px 30px;
@@ -24,4 +24,8 @@
 .address {
     font-size: 80%;
     margin: 0px;
+}
+.first-title {
+    padding-top: 30px;
+    
 }
