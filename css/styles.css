@@ -10,16 +10,16 @@
 }
 
 .footer {
-    background-color: #25221b;
-    color: #faf0e6;
+    background-color: #F0A966;
+    color: #070503;
     margin: 0px auto;
-    padding: 0px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
 }
 .jumbotron {
     padding: 70px 30px 70px 30px;
     margin: 0px auto;
-    background-color: #25221b;
-    color:#faf0e6;
+    background-color: #F4A460;
+    color: #070503;
 }
 .address {
     font-size: 80%;
@@ -28,4 +28,13 @@
 .first-title {
     padding-top: 30px;
     
+}
+
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+.navbar-dark {
+    background-color: rgb(102 153 204);
+    color: #070503;
 }
