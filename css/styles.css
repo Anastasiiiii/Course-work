@@ -38,3 +38,8 @@ body {
     background-color: rgb(102 153 204);
     color: #070503;
 }
+.nav-item {
+    margin-left: 20px;
+}
+
+
