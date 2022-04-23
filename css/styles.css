@@ -29,6 +29,12 @@
     padding-top: 30px;
     
 }
+.logo {
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 167px;
+    height: 164px;
+}
 
 body {
     padding: 50px 0px 0px 0px;
@@ -46,4 +52,10 @@ body {
     background-color: rgb(102 153 204);
 }
 
+.p-header {
+    margin-top: 30px;
+}
+.h1-header {
+    margin-top: 20px;
+}
 
