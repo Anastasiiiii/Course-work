@@ -59,3 +59,45 @@ body {
     margin-top: 20px;
 }
 
+.tasty {
+    background-color: rgb(138, 176, 215);
+    color:azure;
+}
+.btn-reserve {
+    background-color: rgb(99, 154, 208);
+    color: azure;
+    margin-bottom: 15px;
+}
+.freebreakfast {
+    margin-left: -60px;
+}
+.guest-check {
+    margin-right: 5px;
+}
+.data-time {
+    margin-top: 30px;
+    margin-right: 5px;
+}
+
+.btn-reserve-table {
+    background-color: rgb(99, 154, 208);
+    text-decoration: none;
+    color: azure;
+    margin: 10px auto auto 40px;
+    text-align: center;
+}
+.link-reserve-table {
+    background-color: rgb(99, 154, 208);
+    text-decoration: none;
+    color: azure;
+}
+.link-reserve-table:hover {
+    text-decoration: none;
+    color: azure;
+}
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}

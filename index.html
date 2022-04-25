@@ -9,7 +9,7 @@
     <link rel = "stylesheet" href = "css/styles.css">
     <link rel = "stylesheet" href = "node_modules/font-awesome/css/font-awesome.min.css">
     <link rel = "stylesheet" href = "node_modules/bootstrap-social/bootstrap-social.css">
-    <title>Ristorante Con Fusion: Home</title>
+    <title>Breakfast: Home</title>
 </head>
 <body>
     <nav class = "navbar navbar-dark navbar-expand-sm fixed-top">
@@ -32,11 +32,16 @@
         <div class = "container">
             <div class = "row row-header">
            <div class = "col-12 col-sm-6">
-               <h1 class = "h1-header">Breackfast cafe</h1>
+               <h1 class = "h1-header">Breakfast cafe</h1>
                <p class = "p-header">We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
            </div>
            <div class = "col-12 col-sm align-self-center">
             <img src = "images/logo3.png" class = "img-fluid logo">
+        </div>
+        <div class = "col align-self-center" >
+            <button type = "submit" class = "btn btn-reserve-table btn-lg">
+                <a href = "#reserve-table" class = "link-reserve-table ">Reserve Table</a>
+            </button>
         </div>
         </div>
         </div>
@@ -50,7 +55,7 @@
                 <div class = "media">
                     <img class = "d-flex mr-3 img-thumbnail align-items-center" src = "images/croissant.jpeg" alt = "croissant" width="200px" height="200px">
                     <div class = "media-body">
-                        <h2 class = "mt-0">Croissant</h2>
+                        <h2 class = "mt-0">Croissant <span class = "badge tasty">TASTY</span> <span class = "badge badge-pill badge-secondary">$1.5</span></h2>
                         <p>A croissant is a laminated, yeast-leavened bakery product that contains dough/roll-in fat layers to create a flaky, crispy texture. Croissants belong to the Viennoiserie or pastry category of baked goods along with brioche, Danish and puff pastries.</p>
                     </div>         
                 </div>
@@ -60,28 +65,69 @@
    
     <div class = "row row-content align-items-center">
          <div class = "col-12 col-sm-4 col-md-3">
-             <h3>Our Lipsmacking Culinary Creations</h3>
+             <h2>This Month`s Promotions</h2>
          </div>
-         <div class="col col-sm offset-6 col-md">
-             <h2>Uthappizza</h2>
-             <p>A unique combination of Indian Uthappam</p>
+         <div class="col col-sm offset-2 col-md">
+             <h2 class = "freebreakfast">Free breakfast  <span class = "badge badge-danger">NEW</span></h2>
+             <p class = "freebreakfast">This month, you have an opportunity to have free breakfast in our Breakfast cafee. To take part in this action, you have to buy a hot drink and order a dish from our special menu.</p>
          </div>
+         <img class = "d-flex mr-3 img-thumbnail align-items-right" src = "images/breackfast1.jpeg" alt = "FreeBreakfast" width = "200" height="220">
     </div>
     <div class = "row row-content align-items-center">
-         <div class = "col-12 col-sm-4 order-sm-last col-md-3">
-             <h3>Meet our Culinary Specialists</h3>
-             </div>
-             <div class="col col-sm order-sm-first col-md">
-                 <div class = "media">
-                     <img class="d-flex mr-3 img-thumbnail align-self-center" src = "images/August Zang.jpeg" alt = "August">
-                     <div class = "media-body">
-                        <h2 class = "mt-0">August Zang</h2>
-                        <h4>Chef-creator of croissants</h4>
-                        <p class = "d-none d-sm-block">The birth of the croissant itself—that is, its adaptation from the plainer form of kipferl, before the invention of viennoiseries—can be dated to at least 1839 (some say 1838) when an Austrian artillery officer, August Zang, founded a Viennese bakery ("Boulangerie Viennoise") at 92, rue de Richelieu in Paris.</p>
-                     </div>
-                 </div>
+        <div class = "col-12 col-sm-4 order-sm-last col-md-3">
+            <h3>Meet our Culinary Specialists</h3>
+        </div>
+        <div class="col col-sm order-sm-first col-md">
+            <div class = "media">
+                <img class="d-flex mr-3 img-thumbnail align-self-center" src = "images/August Zang.jpeg" alt = "August">
+                <div class = "media-body">
+                    <h2 class = "mt-0">August Zang</h2>
+                    <h4>Chef-creator of croissants</h4>
+                    <p class = "d-none d-sm-block">The birth of the croissant itself—that is, its adaptation from the plainer form of kipferl, before the invention of viennoiseries—can be dated to at least 1839 (some say 1838) when an Austrian artillery officer, August Zang, founded a Viennese bakery ("Boulangerie Viennoise") at 92, rue de Richelieu in Paris.</p>
+                </div>
             </div>
         </div>
+    </div>
+    <div class = "row row-content justify-content-center" id = "reserve-table">
+        <div class = "col-7">
+            <div class = "card card-responsive">
+                <h3 class = "card-header text-white">Reserve a Table</h3>
+                <div class = "card-body">
+                    <div class = "row">
+                        <div class = "col"><b>Number of Guests</b></div>
+                        <div class = "col-5">
+                            <div class = "form-check-input row guest-check">
+                                <div class = "col"><lebel class = "numbers">1</lebel><input type = "radio" class = "form-check-input" name = "approve" id = "approve" value = ""></div>
+                                <div class = "col"><lebel class = "numbers">2</lebel><input type = "radio" class = "form-check-input" name = "approve" id = "approve" value = ""></div>
+                                <div class = "col"><lebel class = "numbers">3</lebel><input type = "radio" class = "form-check-input" name = "approve" id = "approve" value = ""></div>
+                                <div class = "col"><lebel class = "numbers">4</lebel><input type = "radio" class = "form-check-input" name = "approve" id = "approve" value = ""></div>
+                                <div class = "col"><lebel class = "numbers">5</lebel><input type = "radio" class = "form-check-input" name = "approve" id = "approve" value = ""></div>
+                                <div class = "col"><lebel class = "numbers">6</lebel><input type = "radio" class = "form-check-input" name = "approve" id = "approve" value = ""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "row">
+                        <div class = "col data-time"><b>Data and Time</b></div>     
+                            <div class = "col-3 col-md-3 data-time">
+                                <input type = "time" class = "form-control" id = "time" name = "time" placeholder = "Time">
+                            </div>
+                            <div class = "col-3 col-md-3 data-time">
+                                <input type = "data" class = "form-control" id = "data" name = "data" placeholder = "Data">
+                            </div>
+                    </div>
+                    </div>
+                    <div class = "row">
+                        <div class = "offset-md-2 col-md-10">
+                            <button type = "submit" class = "btn btn-reserve">
+                                Reserve
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div> 
     <footer class = "footer">
          <div class = "container">
