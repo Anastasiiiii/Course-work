@@ -71,9 +71,6 @@ body {
 .freebreakfast {
     margin-left: -60px;
 }
-.guest-check {
-    margin-right: 5px;
-}
 .data-time {
     margin-top: 30px;
     margin-right: 5px;
@@ -85,7 +82,6 @@ body {
     font-size: larger;
     margin-top: 15px;
 }
-
 .tab-content {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
@@ -96,7 +92,7 @@ body {
     color: azure;
 }
 .carousel {
-    background-color: rgba(19, 31, 43);
+    background-color: rgb(37, 23, 9);
     margin-top: 40px;
 }
 .carousel-item {
@@ -107,4 +103,13 @@ body {
     top: 0;
     left: 0;
     min-height: 400px;
+}
+.btn-group {
+    margin-top: 25px;
+    margin-right: 27px;
+}
+#carouselButton {
+    right: -27px;
+    position: absolute;
+    bottom: 0px;
 }
