@@ -109,7 +109,7 @@ body {
     margin-right: 27px;
 }
 #carouselButton {
-    right: -27px;
+    right: 0;
     position: absolute;
     bottom: 0px;
 }
