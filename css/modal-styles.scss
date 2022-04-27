@@ -1,0 +1,12 @@
+$background-dark: #251709;
+$background-light: #faf2ea;
+$text-color-dark: #251709;
+.modal-header {
+    background-color: $background-dark;
+    color: azure;
+}
+
+.modal-body {
+    background-color: $background-light;
+    color: $text-color-dark;
+}
